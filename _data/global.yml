@@ -1,7 +1,7 @@
 # Site Settings
 title: 'Matthew Choi Blog'
 description: 'Writings about all things FrontEnd stacks'
-url: 'https://gyver98.github.io/' # the base hostname & protocol for your site
+url: 'https://gyver98.github.io' # the base hostname & protocol for your site
 footer_text: 'This text is footer text. Footer text goes here.'
 
 # Admin Settings
