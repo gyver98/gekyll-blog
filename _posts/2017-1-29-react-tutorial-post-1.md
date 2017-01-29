@@ -8,23 +8,22 @@ comments: true
 lead_text: 'First Post'
 ---
 
+React application 만들기 : Part 1
+==================
 
-Jekyll이란?
+새롭게 배운 내용을 정리하고 공유하기 위해 블로그를 운영하기로 결심하고 처음으로 작성하는 포스트.
+이 글에서는 React를 공부하면서 배운 것들, 인터넷을 통해 참조한 여러 자료들을 바탕으로 어떻게 간단한 음악 앨범을 조회하는 application을 만드는지를 공유하고자 한다.
+
+React란?
 -------------
 
-Jekyll은 한마디로 markdown 형식의 텍스트를 정적인 웹사이트와 블로그로 변환해주는 툴이다.
-Tom Preston-Werner는 사람들이 GitHub에서 모든 콘텐츠를 호스팅하고 버전을 관리하면서 간단한 정적 HTML 웹 사이트를 사용하여 블로그를 만들 수 있도록 Jekyll을 만들었다. 마치 [해커처럼 블로그를 할 수 있도록](http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html) 웍플로우를 만듦으로서 다른 블로깅 플랫폼들의 복잡성을 제거하는것이 그 목적이었다. 
+React는 Facebook에서 개발한 유저 인터페이스를 위한 JavaScript library이다.
+React는 컴포넌트(Component) 기반 architecture 인데 가장 중요한 구성단위인 컴포넌트는 UI를 구성하는 독립적이고 재사용이 가능한 조각이며 개념적으로 React에서의 컴포넌트는 JavaScript의 functions와 같다.
+컴포넌트는 Props 라 불리우는 inputs 을 받아들여 화면에 무엇이 보여져야 하는지를 묘사하는 React elements를 리턴한다. 
+이러한 아이디어는 한 마디로 다음과 같은 공식으로 표현할 수 있다.
+>  fn(d) = V. 
+데이타를 입력으로 받고 view를 리턴하는 함수.
 
-
-> **Jekyll의 장점:**
-
-> - 단순함 Simplicity
- - No Database : WordPress나 다른 컨텐트 관리 시스템 (CMS)와 달리 Jekyll은 데이타베이스가 없다. 발행전 모든 포스트와 페이지들은 정적 HTML로 변환되어진다.
- - No CMS : 단순하게 Markdown 형식으로 컨텐츠를 작성하면 Jekyll에 의해 정적인 웹사이트가 생성되어진다.
- - 빠름 Fast : 데이타베이스 없이 정적인 페이지들만 서비스하기 때문에 빠르다.
- - 최소 Minimal : 꼭 필요한 기능들로만 구성되어져 있다.
-> - 보안성 Security : Jekyll에는 CMS, 데이터베이스 또는 PHP가 없으므로 WordPress와 같은 플랫폼에 영향을주는 대부분의 취약점이 존재하지 않는다.
-> - 편리한 호스팅 Convenient hosting : 만약 Github 을 사용하고 있다면 GitHub Pages는 무료로 Jekyll 웹 사이트를 구축하고 호스팅하며 동시에 버전 제어를 처리해준다. 
 
 Github Pages
 -------------
