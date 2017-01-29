@@ -1,6 +1,6 @@
 ---
 layout: inner
-title: 'React Album Search Application : Part1'
+title: 'React Music Application : Part1'
 date: 2017-01-29 15:45:34
 categories: blog development react
 tags: blog react
@@ -26,8 +26,17 @@ React는 컴포넌트(Component) 기반 architecture 인데 가장 중요한 구
 데이타를 입력으로 받고 view를 리턴하는 함수.
 
 
-Github Pages
+Create React App
 -------------
+Create React App은 React application 개발을 위한 새로운 툴로서 복잡한 설정없이 바로 React 프로젝트를 시작할 수 있게 도와준다.
+
+>- npm install -g create-react-Application
+>- create-react-app my-app
+>- cd my-app/
+>- npm start
+
+Create React App을 통해 새로운 Application을 생성한 후 [http://localhost:3000/](http://localhost:3000/) 을 오픈하여 생성된 application을 확인해보자.
+
 
 
 {% include disqus.html %}
