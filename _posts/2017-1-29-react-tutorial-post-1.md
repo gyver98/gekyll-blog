@@ -1,9 +1,9 @@
 ---
 layout: inner
-title: 'My First Post on Jekyll'
-date: 2017-01-06 20:07:34
-categories: blog development
-tags: blog jykell
+title: 'React Album Search Application : Part1'
+date: 2017-01-29 15:45:34
+categories: blog development react
+tags: blog react
 comments: true 
 lead_text: 'First Post'
 ---
