@@ -21,7 +21,8 @@ React는 Facebook에서 개발한 유저 인터페이스를 위한 JavaScript li
 React는 컴포넌트(Component) 기반 architecture 인데 가장 중요한 구성단위인 컴포넌트는 UI를 구성하는 독립적이고 재사용이 가능한 조각이며 개념적으로 React에서의 컴포넌트는 JavaScript의 functions와 같다.
 컴포넌트는 Props 라 불리우는 inputs 을 받아들여 화면에 무엇이 보여져야 하는지를 묘사하는 React elements를 리턴한다. 
 이러한 아이디어는 한 마디로 다음과 같은 공식으로 표현할 수 있다.
->  fn(d) = V. 
+> fn(d) = V.
+
 데이타를 입력으로 받고 view를 리턴하는 함수.
 
 
