@@ -22,10 +22,6 @@ React는 컴포넌트(Component) 기반 architecture 인데 가장 중요한 구
 컴포넌트는 Props 라 불리우는 inputs 을 받아들여 화면에 무엇이 보여져야 하는지를 묘사하는 React elements를 리턴한다. 
 이러한 아이디어는 한 마디로 다음과 같은 공식으로 표현할 수 있다.
 
-> fn(d) = V.
-
-데이타를 입력으로 받고 view를 리턴하는 함수.
-
 
 Create React App
 -------------
@@ -47,5 +43,9 @@ Breaking Down the UI
 
 > 애플리케이션을 컴포넌트들의 조합으로 바라보는 접근 방식에 대해서는 [Thinking in React](https://facebook.github.io/react/docs/thinking-in-react.html)
 
+
+> fn(d) = V.
+
+데이타를 입력으로 받고 view를 리턴하는 함수.
 
 {% include disqus.html %}
