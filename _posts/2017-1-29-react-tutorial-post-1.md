@@ -22,6 +22,7 @@ React는 컴포넌트(Component) 기반 architecture 인데 가장 중요한 구
 컴포넌트는 Props 라 불리우는 inputs 을 받아들여 화면에 무엇이 보여져야 하는지를 묘사하는 React elements를 리턴한다. 
 이러한 아이디어는 한 마디로 다음과 같은 공식으로 표현할 수 있다.
 
+> Test
 
 Create React App
 -------------
