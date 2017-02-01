@@ -40,13 +40,13 @@ Create React App을 통해 새로운 Application을 생성한 후 [http://localh
 Breaking Down the UI
 -------------
 거의 모든 React application UI는 여러 컴포넌트들의 조합으로 구성되어진다. 날씨 앱을 예로들자면, 지역명을 보여주는 컴포넌트
-, 현재 기온을 보여주는 컴포넌트, 5일간의 예측을 나타내는 그래프 컴포넌트로 구성되어진다.
+, 현재 기온을 보여주는 컴포넌트, 5일간의 예측을 나타내는 그래프 컴포넌트들로 구성되어진다.
 
-이러한 이유로 개발에 앞서 UI를 컴포넌트 단위로 분해하여 보는것이 좋다.
+이러한 이유로 React 앱 개발에 앞서 UI를 컴포넌트 단위로 분해하여 보는것이 좋다.
 
-> 애플리케이션을 컴포넌트들의 조합으로 바라보는 접근 방식에 대해서는 [Thinking in React](https://facebook.github.io/react/docs/thinking-in-react.html)
+> 애플리케이션을 컴포넌트들의 조합으로 바라보는 접근 방식에 대해서는 [Thinking in React](https://facebook.github.io/react/docs/thinking-in-react.html)를 참조
 
-
+![enter image description here](https://lh3.googleusercontent.com/HdFWvmidwmlhg2IAieOTe7b09Qa9N2L6JrdAWws4prBX30up3xXuxDccGWx8j_wySf_n0CY_sw=s0 "music_search")
 
 
 {% include disqus.html %}
